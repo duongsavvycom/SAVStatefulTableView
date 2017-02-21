@@ -2,8 +2,8 @@
 //  StatefulTableDelegate.swift
 //  Demo
 //
-//  Created by Tim on 12/05/2016.
-//  Copyright © 2016 timominous. All rights reserved.
+//  Created by BUIDINHDUONG on 12/05/2016.
+//  Copyright © 2016 SAVVYCOM. All rights reserved.
 //
 
 import UIKit
