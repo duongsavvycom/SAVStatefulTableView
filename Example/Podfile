@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAVStatefulTableView_Example' do
+  pod 'SAVStatefulTableView', :path => '../'
+
+  target 'SAVStatefulTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
