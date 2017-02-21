@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SAVStatefulTableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SAVStatefulTableView.'
+s.summary          = 'SAVStatefulTableView is a UITableviewController subclass that supports pull-to-refresh, load-more, initial-load, and empty states.
+'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +19,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: SAVStatefulTableView is a UITableViewController subclass that supports these states:
+
+State	Description
+SAVStatefulTVCStateLoadingFromPullToRefresh	the standard pull to refresh functionality you see in most apps
+SAVStatefulTVCStateLoadingMore	shows a "loading" view when the user scrolls to the bottom
+SAVStatefulTVCStateInitialLoading	shows a static view when showing the controller for the first time (e.g. a big-ass spinner icon)
+SAVStatefulTVCStateInitialLoadingTableView	shows the tableView instead of a static view when the controller is shown for the first time
+SAVStatefulTVCStateEmptyOrInitialLoadError	shows a static view that indicates whether the initial load failed or there are no data to show
+
                        DESC
 
-  s.homepage         = 'https://github.com/duong.bui@savvycomsoftware.com/SAVStatefulTableView'
+  s.homepage         = 'https://github.com/duongsavvycom/SAVStatefulTableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'duong.bui@savvycomsoftware.com' => 'duong.bui@savvycomsoftware.com' }
