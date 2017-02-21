@@ -1,0 +1,6 @@
+framework module SAVStatefulTableView {
+  umbrella header "SAVStatefulTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SAVStatefulTableView (0.1.0)
+
+DEPENDENCIES:
+  - SAVStatefulTableView (from `../`)
+
+EXTERNAL SOURCES:
+  SAVStatefulTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SAVStatefulTableView: 05e35bc407fb2e3ac25ff36fae64e5d13c89ae33
+
+PODFILE CHECKSUM: 2cc5364212986ba1b09026b34791270203085fe9
+
+COCOAPODS: 1.2.0
